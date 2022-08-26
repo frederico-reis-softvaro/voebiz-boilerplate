@@ -1,6 +1,6 @@
 import React, { createContext, FC, useState, useContext } from "react";
 
-import SessionStorage from "../config/sessionStorage";
+import SessionStorage from "./sessionStorage";
 
 type DocumentType = {
   preferential: boolean;

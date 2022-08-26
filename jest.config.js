@@ -1,5 +1,7 @@
 module.exports = {
   roots: ["<rootDir>/src"],
+  clearMocks: true,
+  resetMocks: true,
   collectCoverage: true,
   collectCoverageFrom: ["<rootDir>/src/**/*.{ts,tsx}", "!**/**/*.d.ts"],
   coveragePathIgnorePatterns: [
