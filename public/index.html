@@ -28,7 +28,7 @@
           return 'https://localhost:3010';
         }
 
-        const rx = /^voebiz-react-register-(dev[1-9]|hml[1-9])\.smiles\.com\.br/g;
+        const rx = /^voebiz-boilerplate-(dev[1-9]|hml[1-9])\.smiles\.com\.br/g;
         const res = rx.exec(window.location.hostname);
         if (res !== null) {
           env = 'portal-' + res[1].replace('hml', 'uat') + '-';
@@ -63,7 +63,7 @@
 </head>
 
 <body>
-  <voebiz-react-register></voebiz-react-register>
+  <voebiz-boilerplate></voebiz-boilerplate>
 </body>
 
 </html>

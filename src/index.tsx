@@ -9,7 +9,7 @@ class WebComponent extends HTMLElement {
   }
 }
 
-const ELEMENT_ID = "voebiz-react-register";
+const ELEMENT_ID = "voebiz-boilerplate";
 
 if (!customElements.get(ELEMENT_ID)) {
   customElements.define(ELEMENT_ID, WebComponent);
