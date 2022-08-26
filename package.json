@@ -1,6 +1,6 @@
 {
   "name": "voebiz-boilerplate",
-  "version": "0.1",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "Softvaro",
   "license": "ISC",
@@ -107,6 +107,9 @@
     ]
   },
   "engines": {
+    "node": "12.13.0"
+  },
+  "volta": {
     "node": "12.13.0"
   }
 }
