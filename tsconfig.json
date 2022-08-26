@@ -6,8 +6,8 @@
     "module": "ES6",
     "moduleResolution": "node",
     "jsx": "react",
-    "rootDir": "src",
-    "baseUrl": ".",
+    "rootDir": "./src",
+    "baseUrl": "./src",
     "allowJs": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
@@ -16,9 +16,6 @@
     "resolveJsonModule": true,
     "noEmit": false,
     "sourceMap": true,
-    "paths": {
-      "@/*": ["*"]
-    },
     "typeRoots": ["node_modules/@types", "src/@types"]
   },
   "include": ["src"],

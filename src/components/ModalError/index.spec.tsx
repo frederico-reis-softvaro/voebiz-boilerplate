@@ -1,5 +1,5 @@
 import React from "react";
-import { screen, render } from "src/tests/utils";
+import { screen, render } from "tests/utils";
 
 import ModalError from ".";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { screen, render, waitFor } from "src/tests/utils";
+import { screen, render, waitFor } from "tests/utils";
 import userEvent from "@testing-library/user-event";
 
 import RegisterContent from ".";

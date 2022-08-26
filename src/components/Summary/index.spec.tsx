@@ -1,11 +1,11 @@
 import React from "react";
-import { screen, render } from "src/tests/utils";
-import * as mockUseUserData from "src/tests/mocks/mockUseUser.json";
+import { screen, render } from "tests/utils";
+import * as mockUseUserData from "tests/mocks/mockUseUser.json";
 import userEvent from "@testing-library/user-event";
 
-import * as mockUseUser from "src/context/UserContext";
+import * as mockUseUser from "context/UserContext";
 
-import Summary from "src/components/Summary";
+import Summary from "components/Summary";
 
 const mockFn = jest.fn();
 
