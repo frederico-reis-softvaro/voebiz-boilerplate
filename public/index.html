@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voebiz</title>
+  <script>
+    (function (window, document) {
+      'use strict';
+      let smlsEnv = '';
+      (function () {
+        const rx = /^(portal-|)(.*)\.smiles\.com\.br/g;
+        const res = rx.exec(window.location.hostname);
+        smlsEnv =
+          res === null
+            ? 'dev6'
+            : res[2] === 'www'
+              ? 'prd'
+              : res[2];
+        window.smlsEnv = smlsEnv;
+      })();
+      function getStyleHost() {
+        let env = '';
+
+        if (window.location.hostname.indexOf('localhost') > -1) {
+          return 'https://localhost:3010';
+        }
+
+        const rx = /^voebiz-react-register-(dev[1-9]|hml[1-9])\.smiles\.com\.br/g;
+        const res = rx.exec(window.location.hostname);
+        if (res !== null) {
+          env = 'portal-' + res[1].replace('hml', 'uat') + '-';
+        }
+
+        return `https://${env}static.smiler.com.br/bs-theme`;
+      }
+
+      function loadStyle(file, media) {
+        const head = document.getElementsByTagName('head')[0];
+        const lk = document.createElement('link');
+        lk.rel = 'stylesheet';
+        lk.type = 'text/css';
+        lk.href = getStyleHost() + file;
+        lk.media = media;
+        head.appendChild(lk);
+      }
+      loadStyle(
+        '/css/smls-base-theme.min.css',
+        'all'
+      );
+      loadStyle(
+        '/css/smls-components.min.css',
+        'all'
+      );
+      loadStyle(
+        '/css/voebiz-register.min.css',
+        'all'
+      );
+    })(window, document);
+  </script>
+</head>
+
+<body>
+  <voebiz-react-register></voebiz-react-register>
+</body>
+
+</html>

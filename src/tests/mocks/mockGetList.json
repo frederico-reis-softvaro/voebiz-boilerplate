@@ -1,0 +1,195 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "lovType": "FINS_DRVOCC_DWLOCC_MLOV",
+      "dadosEmpresa": [
+        {
+          "id": "Presidency",
+          "description": "Presidência"
+        }
+      ]
+    },
+    {
+      "lovType": "GOL_VB_ANNUAL_TRV_BUDGET",
+      "dadosEmpresa": [
+        {
+          "id": "Acima de R$ 200 mil",
+          "description": "Acima de R$ 200 mil"
+        },
+        {
+          "id": "Até R$ 5 mil",
+          "description": "Até R$ 5 mil"
+        },
+        {
+          "id": "R$ 100 mil a R$ 200 mil",
+          "description": "R$ 100 mil a R$ 200 mil"
+        },
+        {
+          "id": "R$ 25 mil a R$ 50 mil",
+          "description": "R$ 25 mil a R$ 50 mil"
+        },
+        {
+          "id": "R$ 5 mil a R$ 25 mil",
+          "description": "R$ 5 mil a R$ 25 mil"
+        },
+        {
+          "id": "R$ 50 mil a R$ 100 mil",
+          "description": "R$ 50 mil a R$ 100 mil"
+        }
+      ]
+    },
+    {
+      "lovType": "GOL_VB_HOW_MET_PROGRAM",
+      "dadosEmpresa": [
+        {
+          "id": "Airfrance e KLM",
+          "description": "Airfrance e KLM"
+        },
+        {
+          "id": "Buscas na Internet",
+          "description": "Buscas na Internet"
+        },
+        {
+          "id": "E-mail",
+          "description": "E-mail"
+        },
+        {
+          "id": "Eventos",
+          "description": "Eventos"
+        },
+        {
+          "id": "Indicação",
+          "description": "Indicação"
+        },
+        {
+          "id": "Outros",
+          "description": "Outros"
+        },
+        {
+          "id": "Redes Sociais",
+          "description": "Redes Sociais"
+        }
+      ]
+    },
+    {
+      "lovType": "GOL_VB_MAIN_ACTIVITY",
+      "dadosEmpresa": [
+        {
+          "id": "01",
+          "description": "01 MVB-91"
+        },
+        {
+          "id": "02",
+          "description": "02 MVB-91"
+        },
+        {
+          "id": "03",
+          "description": "03 MVB-91"
+        },
+        {
+          "id": "05",
+          "description": "05 MVB-91"
+        },
+        {
+          "id": "06",
+          "description": "06 MVB-91"
+        },
+        {
+          "id": "07",
+          "description": "07 MVB-91"
+        },
+        {
+          "id": "08",
+          "description": "08 MVB-91"
+        },
+        {
+          "id": "09",
+          "description": "09 MVB-91"
+        },
+        {
+          "id": "10",
+          "description": "10 MVB-91"
+        },
+        {
+          "id": "11",
+          "description": "11 MVB-91"
+        }
+      ]
+    },
+    {
+      "lovType": "GOL_VB_NUM_EMPLOYEES",
+      "dadosEmpresa": [
+        {
+          "id": "100 a 249",
+          "description": "100 a 249"
+        },
+        {
+          "id": "20 a 49",
+          "description": "20 a 49"
+        },
+        {
+          "id": "250 a 499",
+          "description": "250 a 499"
+        },
+        {
+          "id": "50 a 99",
+          "description": "50 a 99"
+        },
+        {
+          "id": "500 ou mais",
+          "description": "500 ou mais"
+        },
+        {
+          "id": "Até 19",
+          "description": "Até 19"
+        }
+      ]
+    },
+    {
+      "lovType": "GOL_VB_REASON_STATUS",
+      "dadosEmpresa": [
+        {
+          "id": "Aguardando validação",
+          "description": "Aguardando validação"
+        },
+        {
+          "id": "Aguardando validação (Novo)",
+          "description": "Aguardando validação (Novo)"
+        },
+        {
+          "id": "Em análise",
+          "description": "Em análise"
+        },
+        {
+          "id": "Erro de cadastro",
+          "description": "Erro de cadastro"
+        },
+        {
+          "id": "Fraude comprovada",
+          "description": "Fraude comprovada"
+        },
+        {
+          "id": "Inapto",
+          "description": "Inapto"
+        },
+        {
+          "id": "Por falta de uso",
+          "description": "Por falta de uso"
+        },
+        {
+          "id": "Solicitado pelo cliente",
+          "description": "Solicitado pelo cliente"
+        },
+        {
+          "id": "Suspeita de fraude",
+          "description": "Suspeita de fraude"
+        },
+        {
+          "id": "Válido",
+          "description": "Válido"
+        }
+      ]
+    }
+  ]
+}

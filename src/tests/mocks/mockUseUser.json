@@ -1,0 +1,67 @@
+{
+  "cnpj": "47.092.341/0001-06",
+  "apiDomain": "https://apigw.dev1.smiles.com.br",
+  "adminName": "Admin",
+  "fantasyName": "Gol Milhas S.A",
+  "organizationName": "Gol Milhas S.A LTDA",
+  "mainActivity": "Atividade Provisória",
+  "firstName": "Bruno",
+  "lastName": "da Silva",
+  "password": "12345",
+  "passwordConfirmation": "12345",
+  "numberOfEmployees": "250 a 499",
+  "annualBudgetforTravel": "R$ 50 mil a R$ 100 mil",
+  "occupation": "Presidência",
+  "relationshipWithGOL": "Y",
+  "providedServicesToGol": "Y",
+  "providedServicesToOthers": "Y",
+  "indicationCode": "",
+  "HowMeetedProgram": "AirFrance e KLM",
+  "smilesToken": "123456",
+  "addressList": {
+    "type": "OFFICE",
+    "preferential": true,
+    "streetAddress": "Avenida Paulista",
+    "streetAddressNumber": "1811",
+    "complement": "sala 10",
+    "zipCode": "01311-200",
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "country": "Brazil"
+  },
+  "documentList": [
+    {
+      "preferential": true,
+      "type": "CNPJ",
+      "number": "56.447.134/0001-00"
+    },
+    {
+      "preferential": false,
+      "type": "CPF",
+      "number": "041.428.350-33"
+    }
+  ],
+  "phoneList": [
+    {
+      "type": "CELLPHONE",
+      "verified": true,
+      "internationalCode": 55,
+      "areaCode": 11,
+      "number": "123456789"
+    },
+    {
+      "type": "Work",
+      "verified": false,
+      "internationalCode": 55,
+      "areaCode": 11,
+      "number": "43213423"
+    }
+  ],
+  "electronicAddressList": [
+    {
+      "type": "Business",
+      "preferential": true,
+      "address": "teste@email.com"
+    }
+  ]
+}

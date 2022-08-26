@@ -1,0 +1,490 @@
+{
+  "summary": {
+    "title": "Empresa",
+    "company": {
+      "title": "Empresa",
+      "organization_name": "Razão Social",
+      "cnpj": "CNPJ"
+    },
+    "address": {
+      "title": "Endereço",
+      "zipCode": "CEP",
+      "full_address": "Buscar endereço"
+    },
+    "admin": {
+      "title": "Administrador da conta",
+      "name": "Nome completo",
+      "cpf": "CPF",
+
+      "occupation": "Área de Atuação",
+      "email": "E-mail",
+      "comercial_phone": "Comercial",
+      "mobile_phone": "Celular",
+      "password": "Senha"
+    },
+    "terms": {
+      "title": "Termos de aceite"
+    }
+  },
+  "cnpj": {
+    "title": "Cadastrar empresa",
+    "description": "Cadastre sua empresa para acumular pontos e ganhar descontos em passagens aéreas. Podem participar empresas com CNPJ válido e sede no Brasil.\n\nPara começar, insira os números do CNPJ.",
+    "label": "CNPJ",
+    "no_document": "Não tenho CNPJ",
+    "continue_register": "Continuar",
+    "passport": "Passaporte",
+    "select_document": "Você pode continuar com um desses documentos:",
+    "whats_your_passport": "Qual é o número do seu passaporte?",
+    "insert_numbers": "Digite letras e números",
+    "whats_your_rne": "Qual é o número do seu RNE?",
+    "invalid_passport": "Passaporte inválido. Tente novamente",
+    "invalid_rne": "RNE inválido.Tente novamente",
+    "access_account": "Já possui conta? ",
+    "access_account_link": "Acessar minha conta",
+    "already_registered_rne": "RNE",
+    "already_registered_passport": "passaporte",
+    "try_to_register": "Cadastrar empresa",
+    "generic_error": "Não foi possível continuar o cadastro",
+    "generic_error_description": "Houve uma falha durante o processo de cadastro da sua empresa. Por favor, tente de novo em instantes.",
+    "already_registered_CNPJ_error": "Não foi possível cadastrar a empresa",
+    "already_registered_CNPJ_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz. ",
+    "renew_session_error": "Gostaria de renovar sua sessão?",
+    "renew_session_description": "Renove o tempo da sessão para continuar com a busca atual e todas as informações já preenchidas. Este processo visa garantir a sua segurança.",
+    "unable_to_access_account_error": "Não foi possível acessar sua conta",
+    "unable_to_access_account_description": "Houve uma falha durante seu login. Por favor, tente de novo em instantes.",
+    "already_registered_email_error": "Não foi possível cadastrar o e-mail",
+    "already_registered_email_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz.",
+    "already_registered_CPF_error": "Não foi possível cadastrar o CPF",
+    "already_registered_CPF_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz. ",
+
+    "password_recover": "Recuperar senha",
+    "signIn_my_account": "Acessar conta",
+    "dead_cnpj": "Opa, algo deu errado por aqui...",
+    "dead_cnpj_description": "Para continuar o cadastro, será preciso informar outro número de CNPJ.",
+    "register_another_cnpj": "Cadastrar com outro CNPJ",
+    "something_wrong": "Opa, algo deu errado por aqui...",
+    "something_wrong_description": "Tivemos um problema com nosso sistema e não conseguimos verificar seu {{document}} agora. Pode tentar mais uma vez?",
+    "try_again": "Tentar de novo",
+    "continue": "Continuar",
+    "renew_session": "Renovar sessão",
+    "exit": "Sair",
+    "access_my_account": "Acessar minha conta"
+  },
+  "register_company": {
+    "data_title": "Quais os dados da sua empresa?",
+    "data_titleSection2": "Qual o endereço da sua empresa?",
+    "data_titleSection2Mobile": "Endereço",
+    "data_description": "Preencha os campos sobre sua empresa para solicitar o cadastro no VoeBiz.",
+    "data_label": "",
+    "address_title": "Qual o endereço da sua empresa?",
+    "address_description": "",
+    "address_label": "",
+    "input": {
+      "text": {
+        "cnpj": {
+          "label": "CNPJ"
+        },
+        "company_name": {
+          "label": "Razão Social",
+          "placeholder": "Digite a razão social"
+        },
+        "fantasy_name": {
+          "label": "Nome fantasia",
+          "placeholder": "Digite o nome fantasia (opcional)"
+        },
+        "zipCode": {
+          "label": "CEP",
+          "placeholder": "Digite o CEP",
+          "error": "CEP inválido"
+        },
+        "state_fu": {
+          "label": "Estado",
+          "placeholder": "Escolha uma opção"
+        },
+        "city": {
+          "label": "Cidade",
+          "placeholder": "Digite a cidade"
+        },
+        "address": {
+          "label": "Endereço",
+          "placeholder": "Digite o endereço"
+        },
+        "number": {
+          "label": "Número",
+          "placeholder": "Digite o número"
+        },
+        "extra_info": {
+          "label": "Complemento",
+          "placeholder": "Digite o complemento"
+        }
+      },
+      "dropdown": {
+        "employee_number": {
+          "label": "Número de funcionários",
+          "placeholder": "Escolha uma opção",
+          "error": "Valor incorreto, por favor selecione uma opção"
+        },
+        "main_activity": {
+          "label": "Atividade Principal",
+          "placeholder": "Escolha ou digite os algorítmos da CNAE",
+          "error": "Valor incorreto, por favor selecione uma opção"
+        },
+        "business_budget": {
+          "label": "Orçamento para viagens",
+          "placeholder": "Escolha uma opção",
+          "error": "Valor incorreto, por favor selecione uma opção"
+        },
+        "how_did_you_found_us": {
+          "label": "Como conheceu o programa?",
+          "placeholder": "Escolha uma opção",
+          "error": "Valor incorreto, por favor selecione uma opção"
+        }
+      },
+      "radio": {
+        "radio_relationship_with_gol": {
+          "label": "Sua empresa possui acordo ou relação comercial com a GOL?"
+        },
+        "has_provided_services_to_gol": {
+          "label": "Prestou ou presta serviços para a GOL ?"
+        },
+        "has_provided_services_to_others": {
+          "label": "Prestou ou presta serviços para outra companhia aérea ?"
+        }
+      },
+      "button": {
+        "continue": {
+          "text": "Continuar"
+        }
+      }
+    }
+  },
+  "register_admin": {
+    "data_title": "Quais os seus dados?",
+    "data_description": "Preencha os campos para se cadastrar como Administrador da Conta. Você será responsável por todas as operações, incluindo atualização de cadastro, resgate de pontos e comunicação com o VoeBiz.\n\nTodos os campos são obrigatórios.",
+    "data_title_section_2": "Qual vai ser sua senha?",
+    "data_description_section_2": "Você vai precisar da senha pra acessar o site, resgatar pontos e gerenciar as viagens da sua empresa.",
+    "generic_error": "Não foi possível continuar o cadastro",
+    "generic_error_description": "Houve uma falha durante o processo de cadastro da sua empresa. Por favor, tente de novo em instantes.",
+    "already_registered_CNPJ_error": "Não foi possível cadastrar a empresa",
+    "already_registered_CNPJ_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz. ",
+    "renew_session_error": "Gostaria de renovar sua sessão?",
+    "renew_session_description": "Renove o tempo da sessão para continuar com a busca atual e todas as informações já preenchidas. Este processo visa garantir a sua segurança.",
+    "unable_to_access_account_error": "Não foi possível acessar sua conta",
+    "unable_to_access_account_description": "Houve uma falha durante seu login. Por favor, tente de novo em instantes.",
+    "already_registered_email_error": "Não foi possível cadastrar o e-mail",
+    "already_registered_email_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz.",
+    "already_registered_CPF_error": "Não foi possível cadastrar o CPF",
+    "already_registered_CPF_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz. ",
+
+    "password_recover": "Recuperar senha",
+    "signIn_my_account": "Acessar conta",
+    "dead_cnpj": "Opa, algo deu errado por aqui...",
+    "dead_cnpj_description": "Para continuar o cadastro, será preciso informar outro número de CNPJ.",
+    "register_another_cnpj": "Cadastrar com outro CNPJ",
+    "something_wrong": "Opa, algo deu errado por aqui...",
+    "something_wrong_description": "Tivemos um problema com nosso sistema e não conseguimos verificar seu {{document}} agora. Pode tentar mais uma vez?",
+    "try_again": "Tentar de novo",
+    "continue": "Continuar",
+    "renew_session": "Renovar sessão",
+    "exit": "Sair",
+    "access_my_account": "Acessar minha conta",
+    "input": {
+      "text": {
+        "cpf": {
+          "label": "CPF",
+          "placeholder": "Digite seu CPF"
+        },
+        "admin_name": {
+          "label": "Nome Completo",
+          "placeholder": "Digite seu nome completo"
+        },
+        "occupation": {
+          "label": "Área de atuação",
+          "placeholder": "Escolha uma opção"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Digite seu e-mail"
+        },
+        "phone_number_1": {
+          "label": "Telefone 1",
+          "placeholder": "DDD + número de telefone"
+        },
+        "phone_number_2": {
+          "label": "Telefone 2",
+          "placeholder": "DDD + número de telefone"
+        },
+        "password": {
+          "label": "Senha",
+          "placeholder": "Digite sua senha"
+        },
+        "confirm_password": {
+          "label": "Confirmar sua senha",
+          "placeholder": "Confirme sua senha"
+        }
+      },
+      "button": {
+        "continue": {
+          "text": "Continuar"
+        },
+        "return": {
+          "text": "Voltar"
+        }
+      }
+    },
+    "password_error": {
+      "requiredField": "Campo obrigatório.",
+      "hasValidLength": "Entre 8 e 20 caracteres.",
+      "hasUpperCase": "Insira uma letra maíuscula.",
+      "hasLowerCase": "Insira uma letra minúscula.",
+      "hasSpecialChar": "Insira um caractere especial. exceto /.,” e ;",
+      "passwordNotIdentical": "As senhas não coincidem. Por favor, tente de novo."
+    }
+  },
+  "pre_registered": {
+    "question": "Vamos criar sua conta Smiles?",
+    "lets_go": "Vamos lá!",
+    "gol": {
+      "title": "Que ótimo, você já voou com a Gol! ✈️",
+      "description": "Agora você está prestes a embarcar na melhor Plataforma de Viagens do Brasil, com mais de 1600 destinos no mundo inteiro."
+    },
+    "credit_card": {
+      "title": "Que ótimo, você já tem um cartão de crédito Gol Smiles! 😃",
+      "description": "Agora você está prestes a embarcar na melhor Plataforma de Viagens do Brasil, com mais de 1600 destinos no mundo inteiro."
+    },
+    "transference": {
+      "title": "Que ótimo, você já fez alguma transferência com a Smiles antes! 😃",
+      "description": "Agora você está prestes a embarcar na melhor Plataforma de Viagens do Brasil, com mais de 1600 destinos no mundo inteiro."
+    },
+    "shell_box": {
+      "title": "Que ótimo, você já acumulou milhas com o Shell Box! 😃",
+      "description": "Agora você está prestes a embarcar na melhor Plataforma de Viagens do Brasil, com mais de 1600 destinos no mundo inteiro."
+    },
+    "generic_error": "Não foi possível continuar o cadastro",
+    "generic_error_description": "Houve uma falha durante o processo de cadastro da sua empresa. Por favor, tente de novo em instantes.",
+    "already_registered_CNPJ_error": "Não foi possível cadastrar a empresa",
+    "already_registered_CNPJ_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz. ",
+    "renew_session_error": "Gostaria de renovar sua sessão?",
+    "renew_session_description": "Renove o tempo da sessão para continuar com a busca atual e todas as informações já preenchidas. Este processo visa garantir a sua segurança.",
+    "unable_to_access_account_error": "Não foi possível acessar sua conta",
+    "unable_to_access_account_description": "Houve uma falha durante seu login. Por favor, tente de novo em instantes.",
+    "already_registered_email_error": "Não foi possível cadastrar o e-mail",
+    "already_registered_email_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz.",
+    "already_registered_CPF_error": "Não foi possível cadastrar o CPF",
+    "already_registered_CPF_description": "Por favor, tente de novo ou entre em contato com a Central de Atendimento VoeBiz. ",
+
+    "password_recover": "Recuperar senha",
+    "signIn_my_account": "Acessar conta",
+    "dead_cnpj": "Opa, algo deu errado por aqui...",
+    "dead_cnpj_description": "Para continuar o cadastro, será preciso informar outro número de CNPJ.",
+    "register_another_cnpj": "Cadastrar com outro CNPJ",
+    "something_wrong": "Opa, algo deu errado por aqui...",
+    "something_wrong_description": "Tivemos um problema com nosso sistema e não conseguimos verificar seu {{document}} agora. Pode tentar mais uma vez?",
+    "try_again": "Tentar de novo",
+    "continue": "Continuar",
+    "renew_session": "Renovar sessão",
+    "exit": "Sair",
+    "access_my_account": "Acessar minha conta"
+  },
+  "birth_date": {
+    "title": "Em que data você nasceu?",
+    "placeholder": "Ex: DD/MM/AAAA",
+    "description": "Vamos guardar o dia do seu aniversário pra te dar os parabéns!",
+    "invalid_date": "Data inválida. Tente novamente.",
+    "continue_register": "Continuar",
+    "under_age": "Você tem menos de 18 anos?",
+    "under_age_description": "Podemos criar uma conta só pra você, mas uma pessoa responsável precisa autorizar seu cadastro. Essa pessoa precisa ser cliente Smiles e deve vincular as duas constas, seguindo os próximos passo. Vamos lá?",
+    "assign_new_account": "Associar nova conta"
+  },
+  "name": {
+    "title": "Qual seu nome completo?",
+    "description": "Cadastre seu nome sem abreviaturas, exatamente como está no seu documento.",
+    "invalid_full_name": "Nome completo inválido. Tente novamente.",
+    "continue_register": "Continuar"
+  },
+  "email": {
+    "title": "Qual é o seu e-mail?",
+    "description": "Não se preocupe, não vamos  encher a sua caixa de entrada com spam.",
+    "invalid_email": "Email inválido. Tente novamente.",
+    "already_registered_title": "Esse e-mail já está sendo usado por outra pessoa.",
+    "already_registered_description": "Pra continuar o cadastro, você precisa informar um e-mail diferente.",
+    "already_registered": "Cadastrar outro e-mail",
+    "generic_error_title": "Opa, algo deu errado por aqui...",
+    "generic_error_description": "Tivemos um problema com nosso sistema e não conseguimos verificar seu e-mail agora. Pode tentar mais uma vez?",
+    "generic_error": "Tentar novamente",
+    "continue_register": "Continuar"
+  },
+  "confirm_email": {
+    "title": "Confirme seu e-mail",
+    "invalid_email": "Os e-mails não coincidem",
+    "continue_register": "Confirmar e-mail",
+    "register_another_email": "Voltar e cadastrar outro e-mail"
+  },
+  "zipCode": {
+    "title": "Tudo ok, é hora de adicionar seu endereço",
+    "description": "Você pode incluir apenas o CEP ou a rua, e completar o restante depois.",
+    "placeholder": "Digite seu CEP ou endereço ",
+    "not_found": "Não encontramos nenhum resultado. Digite seu CEP ou ",
+    "not_found_action": "complete seu endereço"
+  },
+  "address": {
+    "title": "Complete seu endereço",
+    "inputs": {
+      "city": {
+        "label": "Cidade",
+        "placeholder": "Cidade"
+      },
+      "state": {
+        "label": "Estado",
+        "placeholder": "Estado",
+        "dropdown": "Digite o seu estado"
+      },
+      "complement": {
+        "label": "Complemento (opcional)",
+        "placeholder": "Apartamento, bloco, conjunto"
+      },
+      "number": {
+        "label": "Número",
+        "placeholder": "000"
+      },
+      "zipCode": {
+        "label": "CEP",
+        "placeholder": "00000-000"
+      },
+      "country": {
+        "label": "País",
+        "placeholder": "Selecione um país"
+      },
+      "neighborhood": {
+        "label": "Bairro",
+        "placeholder": "Ex: Vila Mariana"
+      },
+      "publicArea": {
+        "label": "Logradouro",
+        "placeholder": "Ex: R. Santos Dumont"
+      }
+    },
+    "errors": {
+      "country": "País inválido. Tente Novamente",
+      "state": "Estado  inválido. Tente Novamente",
+      "city": "Cidade inválida. Tente Novamente",
+      "neighborhood": "Bairro inválido. Tente Novamente",
+      "number": "Número inválido. Tente novamente",
+      "publicArea": "Endereço inválido. Tente novamente.",
+      "cep": "O CEP informado não é válido. Por favor, tente de novo.",
+      "complement": "Complemento inválido. Tente novamente."
+    }
+  },
+  "terms": {
+    "title": "Pra continuar, você precisa concordar com nossos regulamentos",
+    "privacy": "Política de Privacidade",
+    "program_rules": "Regulamento do Programa",
+    "agreement": "Li e concordo",
+    "continue": "Continuar",
+    "modal_title": "Como você prefere ficar sabendo de promoções e ofertas?",
+    "by_email": "Por e-mail",
+    "by_sms": "Por SMS",
+    "config_later": "Configurar depois",
+    "save": "Salvar",
+    "modal_animation_first_text": "Quaaaaase lá...",
+    "modal_animation_second_Text": "Estamos criando sua conta.",
+    "modal_animation_final_text": "Sua conta está pronta!",
+    "modal_animation_final_text_error": "Opa, algo deu errado por aqui..."
+  },
+  "create_password": {
+    "title": "Agora, crie uma senha de 4 dígitos numéricos",
+    "description": "Você vai precisar da senha para acessar o site, transferir milhas ou comprar passagens, por exemplo.",
+    "rules_hyperlink": "Regras de segurança",
+    "confirm_password": "Continuar",
+    "rules_title": "Sua senha não deve conter:",
+    "rules": [
+      "Menos de 4 dígitos",
+      "Números sequenciais (ex: 1234)",
+      "Números repetidos (ex: 1111)",
+      "Ano ou dia e mês do seu aniversário"
+    ],
+    "invalid": "Essa senha não é segura. Tente novamente.",
+    "aczipCodet_rules": "Entendi"
+  },
+  "confirm_password": {
+    "title": "Repita sua senha",
+    "invalid": "As senhas não coincidem.",
+    "confirm_password": "Confirmar senha",
+    "back_to_password_creation": "Voltar e cadastrar outra senha"
+  },
+  "register_phone": {
+    "title": "Vamos enviar um código pra confirmar seu celular",
+    "description": "Seu cadastro já está quase completo. Só precisamos validar seu número.",
+    "receive_sms": "Receber código por SMS",
+    "select_ddi": "Selecionar DDI",
+    "invalid_ddd": "DDD inválido. Tente novamente.",
+    "invalid_phone": "Número de celular inválido. Tente novamente.",
+    "modal_header_title": "Selecione o código de área (DDI) do seu país"
+  },
+  "validate_phone": {
+    "title": "Digite o código de validação",
+    "description": "Digite o código de 6 dígitos que enviamos para o número\n<bold>{{phone}}</bold>",
+    "validate_code": "Validar código",
+    "resend_code": "Reenviar código {{remainingTimeInSec}}",
+    "invalid_code": "Código inválido. Confira os números e tente novamente.",
+    "resend_title": "Confira o seu número",
+    "resend_description": "Vamos reenviar o código de validação para <bold>{{phone}}</bold>. Está corretinho?",
+    "correct_phone": "Sim, está correto",
+    "edit_phone": "Editar número de celular"
+  },
+  "feedback": {
+    "modal_title": "Fique de olho no seu e-mail, {{name}}",
+    "modal_description_1": "Precisamos revisar os dados do seu cadastro antes de ativar sua conta Smiles. Alguém da nossa equipe fará isso e enviará um e-mail pra você, então, não precisa se preocupar.",
+    "modal_description_2": "Ah, não esqueça de conferir sua caixa de spam!",
+    "modal_confirm": "Entendi",
+    "loading_msg_1": "Quaaaase lá...",
+    "loading_msg_2": "Estamos criando sua conta."
+  },
+  "messages": {
+    "error_title": "Sua conta ainda não está pronta, tem certeza que quer sair agora?",
+    "error_msg": "Se quiser criar sua conta depois, não tem problema. Seu lugar a bordo da Smiles estará sempre reservado, viu?",
+    "button_text_primary": "Continuar",
+    "button_text_secondary": "Concluir o cadastro depois"
+  },
+  "page_message": {
+    "modal_message_error_title": "Ops, não conseguimos completar o cadastro…",
+    "modal_message_error_button": "Tente novamente",
+    "modal_message_error_description": "Seu cadastro foi interrompido, mas você pode tentar mais uma vez! Vamos lá?",
+    "modal_message_success_title": "Pronto, {{name}}! ",
+    "modal_message_success_title2": "Agora é com a gente... ",
+    "modal_message_success_button": "Entendi",
+    "modal_message_success_description": "Precisamos revisar os dados do seu cadastro antes de ativar sua conta Smiles. Alguém da nossa equipe fará isso e enviará um e-mail pra você, então, não precisa se preocupar.",
+    "modal_message_success_description2": "Ah, não esqueça de conferir sua caixa de spam! "
+  },
+  "modal_argentina": {
+    "title": "Você é argentino e mora na Argentina?",
+    "description": "Conclua seu cadastro no site da Smiles Argentina."
+  },
+  "association_minor_legal_guardian": {
+    "title": "Essas contas não podem ser associadas",
+    "description": [
+      "Pra prosseguir com a criação da nova conta, é preciso inserir os dados de uma pessoa que já seja cliente Smiles com mais de 18 anos."
+    ],
+    "btn_primary": "Associar outra conta"
+  },
+  "association_invalid_legal_guardian": {
+    "title": "Essas contas não podem ser associadas",
+    "description": [
+      "Não é possível associar esta conta, pra prosseguir com a criação, é preciso inserir os dados de uma pessoa com uma conta ativa."
+    ],
+    "btn_primary": "Associar outra conta"
+  },
+  "association_service_error": {
+    "title": "Ops, algo deu errado por aqui...",
+    "description": [
+      "Tivemos um problema com nosso sistema e não conseguimos associar as contas. Pode tentar mais uma vez?"
+    ],
+    "btn_primary": "Tentar novamente"
+  },
+  "page_success": {
+    "title": "Recebemos as informações da sua empresa!",
+    "status": "A solicitação de cadastro será analisada pela nossa Central de Relacionamento VoeBiz.",
+    "information": " Você receberá um e-mail com atualizações em até 5 dias úteis.",
+    "alt": "Logo Voebiz"
+  }
+}
