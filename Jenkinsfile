@@ -1,6 +1,6 @@
 PipelineReact([
     runSonar: true,
-    project: "voebiz-react-register",
+    project: "voebiz-boilerplate",
     nodeVer: "12.13.0",
     buildDir: ".",
     runUnitTest: true,
