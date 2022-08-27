@@ -1,9 +1,8 @@
-/* eslint-disable prettier/prettier */
 import axios from "axios";
 
 const createMember = async (newMember: any, smilesToken: string, apiDomain: string) => {
   const newMemberData = JSON.stringify(newMember);
-  const smilesCreateMemberUrl = `${apiDomain}${"/members/v1/members"}`;
+  const smilesCreateMemberUrl = `${apiDomain}/members/v1/members`;
 
   return axios
     .post(smilesCreateMemberUrl, newMemberData, {
@@ -13,11 +12,8 @@ const createMember = async (newMember: any, smilesToken: string, apiDomain: stri
         Channel: "Web",
       },
     })
-    .then(function (response) {
-      return response;
-    })
-    .catch(function (error) {
-      return error;
-    });
+    .then((response) => response)
+    .catch((error) => error.response.data.data.error_code);
 };
+
 export { createMember };
