@@ -14,10 +14,12 @@ module.exports = {
     filename: bundleName,
   },
   resolve: {
+    modules: [path.resolve(__dirname, './'), 'node_modules'],
     extensions: ['.ts', '.tsx', '.js'],
     alias: {
-      '@': path.resolve(__dirname, '..', '..', 'src')
-    }
+      root: __dirname,
+      src: path.resolve(__dirname, 'src'),
+    },
   },
   module: {
     rules: [

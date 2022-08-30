@@ -18,6 +18,7 @@
   "dependencies": {
     "@smiles/smiles-ui-kit-react": "^0.6.1",
     "axios": "^0.27.2",
+    "babel-plugin-module-resolver": "^4.1.0",
     "cpf-cnpj-validator": "^1.0.3",
     "email-validator": "^2.0.4",
     "i18next": "^19.6.3",
@@ -25,8 +26,8 @@
     "password-validator": "^5.3.0",
     "query-string": "^6.13.8",
     "react": "^16.3.1",
-    "react-dom": "^16.13.1",
     "react-device-detect": "^1.14.0",
+    "react-dom": "^16.13.1",
     "react-google-recaptcha": "^2.1.0",
     "react-gtm-module": "^2.0.11",
     "react-hook-form": "^7.33.1",
